@@ -528,8 +528,6 @@ def display_banner():
 ██║  ██║██║   ██║██║  ██║██║██╔═██╗ 
 ██████╔╝╚██████╔╝██████╔╝██║██║  ██╗
 ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═╝
-
-   DUDIK - Prepare To Bam Edition
 """)
     print("=" * 50)
 
@@ -645,4 +643,5 @@ if __name__ == "__main__":
         print("\n[!] Interrupted by user")
     except Exception as e:
         logger.exception("Fatal error")
+
         print(f"\n[!] Error: {e}\nSee dudik.log for details")
